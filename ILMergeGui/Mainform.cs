@@ -1135,6 +1135,10 @@ namespace ILMergeGui
             {
                 frameversion = "4.0";
             }
+            if (Engine == Merger.ILMerge && framework.version.Major == 4 && framework.version.Minor == 6)
+            {
+                frameversion = "4.0";
+            }
 
             String ff = frameversion;
 
